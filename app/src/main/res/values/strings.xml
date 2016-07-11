@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LibraryApp</string>
+    <string name="hint">タイトル</string>
 </resources>
