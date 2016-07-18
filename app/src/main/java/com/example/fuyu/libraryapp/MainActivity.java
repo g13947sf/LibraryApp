@@ -24,8 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private RadioGroup rg;
     private RadioButton radioButton;
     private ContentValues insertValues;
-    public int num;
-    
+    //public int num;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
