@@ -42,6 +42,7 @@ public class ShowDataBase extends Activity {
             TextView textView = new TextView(this);
             textView.setText(String.format("%s", c.getString(0)));
             textView.setTextSize(20.0f);
+            textView.setPadding(40,40,40,40);
             mov = c.moveToNext();
             layout.addView(textView);
         }
